@@ -5,17 +5,7 @@ body {
 *{
     box-sizing: border-box;
 }
-.input {
-    border: 1px solid #Fefefe;
-    outline: none;
-    line-height: 40px;
-    height: 40px;
-    border-radius: 20px 0 0 20px;
-    background: transparent;
-    color: #Fefefe;
-    flex:1;
-    padding: 20px;
-}
+
 /* me */
 .inputUsername {
     border: 1px solid #Fefefe;
@@ -34,7 +24,7 @@ body {
     outline: none;
     line-height: 40px;
     height: 40px;
-    /* border-radius: 20px 0 0 20px; */
+
     background: transparent;
     color: #Fefefe;
     flex:1;
@@ -46,7 +36,7 @@ body {
     outline: none;
     line-height: 40px;
     height: 40px;
-    /* border-radius: 20px 0 0 20px; */
+
     background: transparent;
     color: #Fefefe;
     flex:1;
@@ -58,19 +48,7 @@ button {
     cursor: pointer;
 }
 
-/* buttenaye k belafaseleh bade input hastan */
-.input+button{
-    background: #Fefefe;
-    border-radius: 0 20px 20px 0;
-    border: 1px solid #Fefefe;
-    outline: none;
-    padding: 0 20px;
-    transition: 600ms all ease-in-out;
-}
 
-.input+button:disabled{
-    background: #Fefefe20;
-}
 
 /* me */
 .buttonAdd{
@@ -140,51 +118,3 @@ button {
 
 
 
-/* ////////////////////////////////////////////////// */
-.toDo-list{
-    padding: 0;
-    list-style: none;
-    width: 100%;
-}
-
-.toDo-list:first-of-type {
-    margin-bottom: 0;
-}
-.toDo-list:last-of-type {
-    margin-top: 0;
-}
-
-.toDo-item{
-    display: flex;
-    width: 100%;
-    padding: 10px 20px;
-    align-items: center;
-}
-
-.toDo-item span{
-    flex:1
-}
-
-.toDo-item button {
-    border: 1px solid #Fefefe;
-    padding: 0 15px;
-    border-radius: 15px;
-    height: 30px;
-    background: transparent;
-    color: #Fefefe;
-    outline: none;
-}
-
-.toDo-item input[type="checkbox"] {
-    margin: 0 10px;
-}
-
-
-.toDo-item button:hover{
-    background: #Fefefe80
-}
-
-.toDo-list:last-of-type .toDo-item {
-    opacity: 0.5;
-    text-decoration: line-through;  
-}
